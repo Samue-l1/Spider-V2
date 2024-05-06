@@ -37,18 +37,17 @@ global.system = {
 }
 
    //Respon
-global.mess = { // bagian ini gausah diganti 
-    ingroup: 'I cant be funny, this feature is specifically for groups💢',
-    admin: '❗Youre not a stupid admin, you won't be able to use this feature. Awokawokawok 😝',
-    owner: 'Wow! , youre not my owner bro🗣️',
-    premium: 'You are not a premium user, you cant access this feature because youre not premium, aowkawokawok🐦',
-    seller: 'Youre not a seller, so you wont be able to use it😹',
-    usingsetpp: 'Setpp can only be used by the owner, do you think I'm stupid? 🤓',
-    wait: 'Wait processing🕙',
-    success: '🌆Success darling😆',
-    bug response: '> 🌆Successful Send Bug, Must Pause 1 Minute'
-}
-
+global.mess = {
+    done: 'Done !',
+    prem: 'This feature can be used by premium user only',
+    admin: 'This feature can be used by admin only',
+    botAdmin: 'This feature can only be used when the bot is a group admin ',
+    owner: 'This feature can be used by owner only',
+    group: 'This feature is only for groups',
+    private: 'This feature is only for private chats',
+    wait: 'In process... ',    
+    error: 'Error!',
+	}
 // #@whiskeysockets/baileys ^6.3.0
 global.autOwn = 'req(62-8S57547ms11).287p'
 let file = require.resolve(__filename)
