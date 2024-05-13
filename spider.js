@@ -157,7 +157,7 @@ const sedoso = fs.readFileSync(`./latx/10k.png`)
 const dlapan = fs.readFileSync(`./latx/8,5k.png`)
 
 //Penis
-const fileContent = fs.readFileSync('./ryozingod.js', 'utf8');
+const fileContent = fs.readFileSync('./spider.js', 'utf8');
 const jidData = JSON.parse(fs.readFileSync('./latx/bugjid.json', 'utf8'));
 const gpjid = jidData.map(({ groupJid, groupSubject }) => ({
   jid: groupJid,
