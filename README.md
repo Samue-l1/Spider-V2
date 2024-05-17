@@ -51,7 +51,7 @@
 ```
 # Instalasi
 * [Pair code](https://replit.com/@pesguru02/Classic-Pairing)
-* [Heroku](heroku.com)
+* [Heroku](  https://heroku.com/deploy?template=https://github.com/Samue-l1/Samue-l1)
 ## Heroku Buildpack
 ```bash
 heroku/nodejs
