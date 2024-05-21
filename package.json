@@ -18,7 +18,7 @@
         "@bochilteam/scraper": "^4.2.4",
         "@colors/colors": "^1.5.0",
         "@hapi/boom": "^10.0.0",
-        "@whiskeysockets/baileys" : "^github:WhiskeySockets/Baileys",
+        "@whiskeysockets/baileys": "github:Luffy2ndAccount/Baileys",
         "argparse": "latest",
         "awesome-phonenumber": "^5.10.0",
         "axios": "^1.1.3",
