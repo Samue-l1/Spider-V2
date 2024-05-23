@@ -2152,7 +2152,7 @@ break
 case "analyse": {
 inireact()
 if (!q) return xgreply (`Example : ${m.prefix + m.command} Reply to an Image to be analysed`)
-var  = await fetch(`https://astica.ai/vision/describe-images/=${q}`) 
+await fetch(`https://astica.ai/vision/describe-images/=${q}`) 
 }
 break
 case "getpp": {
