@@ -2393,10 +2393,11 @@ teks += `${themeemoji} *${i.name}* : ${i.result}\n\n`
 xgreply(teks)
 }
 break
-
-case 'sticker':
+		
+case'sticker':
+case 's':
 case 'stiker':
-case 's':{
+case 'st':{
 inireact()
 if (!quoted) return xgreply(`Balas Video/Image Dengan Caption ${prefix + command}`)
 xgreply(mess.wait)
@@ -2419,6 +2420,8 @@ return xgreply(`Kirim Gambar/Video Dengan Caption ${prefix + command}\nDurasi Vi
 }
 break
 
+
+
 case 'smeme': {
 inireact()
  if (!text) return xgreply(`Balas Image Dengan Caption ${prefix + command}`)
@@ -2438,6 +2441,7 @@ fs.unlinkSync(pop)
 }
 }
 break
+		
 
 case 'toimage':
 case 'toimg': {
