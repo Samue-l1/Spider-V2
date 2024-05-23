@@ -2149,6 +2149,14 @@ xgreply(m.pushName)
 }
 }
 break
+case "analyse": {
+inireact()
+if (!q) return xgreply (`Example : ${m.prefix + m.command} Reply to an Image to be analysed`)
+var js = await fetch(`https://astica.ai/vision/describe-images/=${q}`) 
+var json = await js.json()
+xgreply(json.result)
+}
+break
 case "getpp": {
 inireact()
 if (Input) {
