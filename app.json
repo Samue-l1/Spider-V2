@@ -5,14 +5,24 @@
   "logo": "https://telegra.ph/file/2ee62b761b4a1524b6c5f.jpg",           
   "keywords": ["nodejs", "Windows", "multi device"],                                               
   "buildpacks": [                                                     
-    {                                                                   
-      "url": "heroku/nodejs"                                        
-    },                                                                
-    {                                                                   
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"                                                            
-    },                                                                
-    {                                                                   
-      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"                                                                  
-    }                                                            
-  ]                                                            
+    }
+"env": {
+  "sessID": {
+  "description": "Session ID here,get at https://hotaro-md.onrender.com/",
+  "required": true,
+  "value": ""
 }
+},
+"buildpacks": [
+      {
+        "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+          }
+     ]
+}
+
