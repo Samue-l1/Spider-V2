@@ -1,11 +1,10 @@
-{                                                                     
-  "name": "Spider-MD",                                           
-  "description": "Spider-Killer.",                                       
-  "repository": "https://github.com/Samue-l1/Samue-l",                                                                     
-  "logo": "https://telegra.ph/file/2ee62b761b4a1524b6c5f.jpg",           
-  "keywords": ["nodejs", "Windows", "multi device"],                                               
-  "buildpacks": [                                                     
-    }
+{
+	"name": "Spider-MD",
+	"description": "Created By King Sam",
+	"repository": "https://github.com/Samue-l1/Classic-v3-BUG",
+	"logo": "https://telegra.ph/file/c8ea102b36d1aa13f3a9b.jpg",
+	"keywords": ["multi-device"]
+}
 "env": {
   "sessID": {
   "description": "Session ID here,get at https://hotaro-md.onrender.com/",
@@ -25,4 +24,3 @@
           }
      ]
 }
-
