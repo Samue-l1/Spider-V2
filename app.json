@@ -1,15 +1,24 @@
 {
   "name": "Spider-MD",
-  "description": "Whatsapp bot.",
-  "keywords": ["whatsapp bot"],
-  "repository": "https://github.com/Samue-l1/Samue-l1",
+  "description": "whatsapp md bot build with nodejs",
+  "repository": "https://github.com/Samue-l1/CSamue-l1",
   "logo": "https://telegra.ph/file/7fba1ad2920b3f745b885.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "stack": "container",
+  "addons": [{
+  "plan": "heroku-postgresql"
+    }],
     "env": {
       "sessID": {
-        "description": "Put Your Session ID here",
+        "description": "Put Your Session ID here ",
         "required": true
+        "value": ""
       },
+      "HEROKU_API_KEY": {
+        "description": "Heroku account api key, https://dashboard.heroku.com/account",
+        "required": false
+      }
+    },
   "buildpacks": [
               {
                 "url": "heroku/nodejs"
@@ -22,4 +31,3 @@
               }
             ]
           }   
-  
