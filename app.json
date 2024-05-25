@@ -11,15 +11,15 @@
   "required": true,
 }
 },
-"buildpacks": [
-      {
-        "url": "heroku/nodejs"
-    },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    },
-    {
-      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
-          }
-     ]
-}
+  "buildpacks": [
+              {
+                "url": "heroku/nodejs"
+              },
+              {
+                "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+              },
+              {
+                "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+              }
+            ]
+          }   
