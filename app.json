@@ -6,11 +6,10 @@
 	"keywords": ["multi-device"]
 },
 "env": {
-  "sessID": {
-  "description": "Session ID here,get at https://hotaro-md.onrender.com/",
-  "required": true,
-  "value": ""
-},
+      "sessID": {
+        "description": "Put Your Session ID here ",
+        "required": true
+      },
 "buildpacks": [
               {
                 "url": "heroku/nodejs"
