@@ -8,7 +8,7 @@
   "sessID": {
   "description": "Session ID here,get at https://hotaro-md.onrender.com/",
   "required": true,
-  "value": ''
+  "value": ""
 }
 },
 "buildpacks": [
