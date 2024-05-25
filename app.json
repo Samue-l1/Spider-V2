@@ -1,7 +1,7 @@
 {
-	"name": "𝐂𝐥𝐚𝐬𝐬𝐢𝐜-𝐯3",
-	"description": "𝐀 𝐝𝐞𝐚𝐝𝐥𝐲 𝐰𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐛𝐨𝐭,Modified by Tᴀɪʀᴀ Mᴀᴋɪɴᴏ",
-	"repository": "https://github.com/Samue-l1/Classic-v3-BUG",
+	"name": "Spider-MD",
+	"description": "BY King Sam",
+	"repository": "https://github.com/Samue-l1/Samue-l1",
 	"logo": "https://telegra.ph/file/c8ea102b36d1aa13f3a9b.jpg",
 	"keywords": ["multi-device"]
 }
@@ -22,5 +22,4 @@
     {
       "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
           }
-     ]
-}
+
