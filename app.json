@@ -12,7 +12,6 @@
       "sessID": {
         "description": "Put Your Session ID here ",
         "required": true
-        "value": ""
       },
       "HEROKU_API_KEY": {
         "description": "Heroku account api key, https://dashboard.heroku.com/account",
