@@ -1,7 +1,7 @@
 {                                                                     
-  "name": "Windows",                                           
-  "description": "Windows.",                                       
-  "repository": "https://github.com/anonphoenix007/Windows",                                                                     
+  "name": "Spider-MD",                                           
+  "description": "Spider-Killer.",                                       
+  "repository": "https://github.com/Samue-l1/Samue-l",                                                                     
   "logo": "https://telegra.ph/file/2ee62b761b4a1524b6c5f.jpg",           
   "keywords": ["nodejs", "Windows", "multi device"],                                               
   "buildpacks": [                                                     
