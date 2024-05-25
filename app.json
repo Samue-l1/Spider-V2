@@ -1,32 +1,25 @@
 {
-  "name": "Spider-MD",
-  "description": "whatsapp md bot build with nodejs",
-  "repository": "https://github.com/Samue-l1/CSamue-l1",
-  "logo": "https://telegra.ph/file/7fba1ad2920b3f745b885.jpg",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
-  "stack": "container",
-  "addons": [{
-  "plan": "heroku-postgresql"
-    }],
-    "env": {
-      "sessID": {
-        "description": "Put Your Session ID here ",
-        "required": true
-      },
-      "HEROKU_API_KEY": {
-        "description": "Heroku account api key, https://dashboard.heroku.com/account",
-        "required": false
-      }
+	"name": "Spider-Md",
+	"description": "𝐀 𝐝𝐞𝐚𝐝𝐥𝐲 𝐰𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐛𝐨𝐭",
+	"repository": "https://github.com/Samue-l1/Samue-l1",
+	"logo": "https://telegra.ph/file/7fba1ad2920b3f745b885.jpg",
+	"keywords": ["multi-device"]
+}
+"env": {
+  "sessID": {
+  "description": "Session ID here,get at https://hotaro-md.onrender.com/",
+  "required": true,
+}
+},
+"buildpacks": [
+      {
+        "url": "heroku/nodejs"
     },
-  "buildpacks": [
-              {
-                "url": "heroku/nodejs"
-              },
-              {
-                "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-              },
-              {
-                "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
-              }
-            ]
-          }   
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+          }
+     ]
+}
