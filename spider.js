@@ -1,10 +1,5 @@
 /*
-> Kalo Mau Recode Kasih Credit gw ›
-        TheZetsubXygen / Ryo
-
-📝| Created By thezetsuboxygen / Ryo
-🖥️| Base Ori By thezetsuboxygen / Ryo
-
+> by 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒
 
 */
 
@@ -2059,12 +2054,12 @@ await ryozingod.sendMessage(m.chat, { audio: night, mimetype: 'audio/mpeg', ptt:
 break
 
 case 'sc': case 'script': {
-xgreply(`𝒀𝒐𝒖 𝑪𝒂𝒏𝒕 𝒈𝒆𝒕 𝒕𝒉𝒊𝒔 𝑺𝒄𝒓𝒊𝒑𝒕 𝑺𝒐𝒓𝒓𝒚 𝑩𝒓𝒐 ⚚.
+xgreply(`*YOU CAN GET MY SOURCE CODE ON THE LINK BELOW* ⚚.
 
-➻𝑪𝒉𝒆𝒄𝒌 𝑶𝒘𝒏𝒆𝒓 
-➻𝑨𝒔𝒌 𝑯𝒊𝒎 𝒇𝒐𝒓 𝒉𝒆𝒍𝒑 🦉
-
-🫲😂🫱 `)
+➻ https://github.com/Samue-l1/Spider-V2
+➻ > DONT FOGET TO STAR AND FORK THE REPO
+> BY 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒
+ `)
 }
 break
 
